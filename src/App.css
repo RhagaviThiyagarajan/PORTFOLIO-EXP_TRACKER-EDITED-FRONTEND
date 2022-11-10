@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --color-yollow : #f9c74f;
+  --color-purple: #9d4edd;
+}
+
+* > *{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 4em 0;
+}
+
+.bg-yellow{
+  background-color: var(--color-yollow);
+}
+
+.bg-purple{
+  background-color: var(--color-purple);
+}
+
+.chart .title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Register {
+  height: calc(100vh-50px);
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://repository-images.githubusercontent.com/330410387/9411ea00-669e-11eb-8b9a-6210ce730a95");
+  background-size: cover;
+}
+
+.RegisterTitle {
+  font-size: 50px;
+}
+
+.RegisterForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.RegisterForm > label {
+  margin: 10px 0;
+}
+
+.RegisterInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.RegisterButton {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  
+}
+
+.RegisterLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.login
+{
+    height:calc(100vh-150px);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)),
+    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+background-size:cover;
+
+
+
+
+
+
+}
+
+
+
+.logoutButton{
+  background-color: yellowgreen;
+  color:white;
+  padding:15px;
+}
+
+.loginTitle
+{
+    font-size:50px;
+
+}
+
+.loginForm
+{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.loginForm>label
+{
+    margin:10px 0;
+}
+
+
+.loginInput
+{
+    padding:10px;
+    background-color: white;
+    border:none;
+}
+
+
+.loginButton
+{
+    margin-top: 200px;
+    cursor:pointer;
+    background-color:lightcoral;
+    border:none;
+    color:white;
+    border-radius:10px;
+padding:10px;
+}
+
+
+.loginButton:disabled{
+    cursor:not-allowed;
+    background-color: lightcoral;
+}
+
+.RegisterButton
+{
+    position:relative;
+    top:60px;
+    right:20px;
+    background-color:teal;
+    cursor:pointer;
+    border:none;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+}
+.RegisterLoginButton{
+  position:fixed;
+}
+
+
+.RegisterInput{
+  text-shadow: #9d4edd;
+  box-sizing: content-box;
+padding:10px;
+background-color: pink;
+}
+.form-input{
+  @apply mt-1 block w-full py-2 px-3 border border-gray-200 bg-white rounded-md focus:outline-none focus:ring-indigo-500 sm:text-sm;
+}
