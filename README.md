@@ -1,10 +1,9 @@
 
 BackendCode using RTK query,Node,Mongodb
-Link-     https://github.com/RhagaviThiyagarajan/PORTFOLIO-expensetracker-front-backend.git
-netlify-  https://main--mernstack-expensetracker-frontend.netlify.app/
+backend github-     https://github.com/RhagaviThiyagarajan/PORTFOLIO-expensetracker-front-backend.git
+MERN netlify-  https://main--mernstack-expensetracker-frontend.netlify.app/
 
-verces-backend
-https://portfolio-expensetrcker-backend-node.vercel.app/
+backend heroku-https://expensestrackernode.herokuapp.com/
 
 Describing the project
 cd exp_tracker/server
